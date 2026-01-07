@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MEMBERSHIP FORM</title>
+          <link rel="icon" href="logo2.jpg">
+           <link rel="stylesheet" href="style.css">
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial scale=1.0">
+
+    </head>
+     <body>
+ <hr>
+ <marquee behavior="scroll" direction="right" scrollamount="15">The Great Minds Party Membership Form</marquee>
+
+        <p>Great Minds Party G.M.P</p>
+        <p id="p2">Inspiring Thought. Leading Change</p>
+        <img src="logo2.jpg" class="logo">
+        <ul>
+            <li><a href="Home page.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Location.html">LOCATION</a></li>
+            <li><a href="Manifesto.html">MANIFESTO</a></li>
+            <li><a href="Membership.html">MEMBERSHIP</a></li>
+            <li><a href="Officials.html">OFFICIALS</a></li>
+            <li><a href="Events.html">EVENTS</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+
+        <form class="form" autocomplete="on" method="post">
+            <fieldset>
+            <legend><b>Personal Details</b></legend>
+             <label>First Name:</label>
+            <input type="text" placeholder="First Name" required>
+                   <label>Middle Name:</label>
+            <input type="text" placeholder="Middle Name" required><br><br>
+             <label>Last Name:</label>
+            <input type="text" placeholder="Last Name" required>
+             <label>National ID Number:</label>
+            <input type="number" placeholder="ID Number" required><br><br>
+             <label>Date of Birth:</label>
+            <input type="date" required>
+          
+             <label>Gender:</label>
+             <select onchange="selectedOption(this)">
+                <option>Male</option>
+                  <option>Female</option>
+                  </select><br><br>
+                  <script src="script.js"></script>
+
+             <label>Nationality:</label>
+             <select onchange="thisOne(this)">
+                <option>Kenyan</option>
+                  <option>Foreigner</option>
+                  </select>
+
+             <label>County:</label>
+            <input type="text" required><br><br>
+             <label>Constituency:</label>
+            <input type="text" required>
+             <label>Ward:</label>
+            <input type="text"  required><br><br>
+             <label>Phone number:</label>
+            <input type="number" placeholder="+254 7*** ****" required>
+             <label>Email Address:</label>
+             <input type="email" placeholder="******@gmail.com" required><br><br>
+             </fieldset>
+
+             <fieldset>
+                <legend><b>Voter Details</b></legend>
+             <label>Voter's card Number:</label>
+            <input type="number"  placeholder="card number" required><br><br>
+             <label>Polliing Station:</label>
+            <input type="text" required><br><br>
+
+            <label>IEBC Registered?</label>
+             <select onchange="voterRegistered(this)">
+                <option>YES</option>
+                  <option>NO</option>
+                  </select><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend><b>Membership Information</b></legend>
+                 <label>Membership type:</label>
+             <select  onchange="membershipType(this)">
+                <option>Ordinary</option>
+                  <option>Youth</option>
+                   <option>Women</option>
+                    <option>other</option>
+                  </select><br><br>
+             <label>Reason for joining:</label>
+            <textarea  cols="20" rows="5" required></textarea><br><br>
+            
+             <label>Are you a member of another political party?</label>
+             <select onchange="multiParty(this)">
+                <option>YES</option>
+                  <option>NO</option>
+                  </select><br><br>
+             
+                  <label>Prefered level of participation:</label>
+             <select onchange="participationLevel(this)">
+                <option>Volunteer</option>
+                  <option>Mobilizer</option>
+                   <option>Leader</option>
+                  </select><br><br>
+               </fieldset>
+
+             <fieldset>
+             <label>Passport-size photo:</label>
+            <input type="file"  required><br><br>
+             <label>Recomemnder's name:</label>
+            <input type="text" required>
+            </fieldset>
+            <button onclick="alertUser()" class="submit">SUBMIT</button>
+            <script src="script.js"></script>
+        </form>
+        
+     </body>
+</html>
