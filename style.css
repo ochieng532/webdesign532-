@@ -13,6 +13,7 @@ li{
 }
 ul{
     list-style-type: none;
+    background-color: white;
     position: absolute;
     top: 95px;  
     width: 100%;
