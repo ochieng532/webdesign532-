@@ -624,3 +624,9 @@ figcaption{
        color: white;
        background-color:black;
 }
+
+@media (max-width:480px){
+      #p2{
+      
+      }
+}
