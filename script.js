@@ -48,10 +48,4 @@
 
     }
 
-    const burger =document.querrySelector('.burger');
-     const navLinks =document.querrySelector('.navlinks');
-
-     burger.addEventListener('click', ()=> {
-        navLinks.classList.toggle('nav-active');
-        burger.classList.toggle('toggle');
-     });
+    
