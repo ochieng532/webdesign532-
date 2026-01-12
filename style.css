@@ -171,7 +171,7 @@ figcaption{
     position: absolute;
       top: 100px;  
        font-size: 20px;
-       left: 20px;
+       left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
        width: 40%;   
@@ -180,22 +180,20 @@ figcaption{
 }
 .dpl{
     position: absolute;
-      top: 100px;  
-      width: 100%;
+      top: 250px;  
+      width: 40%;
        font-size: 20px;
-       left: 650px;
+       left: 30%;
        border: 2px solid  white;
-       border-radius: 8px;  
-       width: 40%;   
+       border-radius: 8px;   
        padding: 3px;   
        background-color:darkviolet;  
 }
 .sg{
     position: absolute;
-      top: 250px;  
-      width: 100%;
+      top: 400px;  
        font-size: 20px;
-        left: 20px;
+        left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
        width: 40%;   
@@ -204,10 +202,9 @@ figcaption{
 }
 .dsg{
     position: absolute;
-      top: 250px;  
-      width: 100%;
+      top: 550px;  
        font-size: 20px;
-       left: 650px;
+       left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
        width: 40%;   
@@ -216,10 +213,9 @@ figcaption{
 }
 .tr{
     position: absolute;
-      top: 400px;  
-      width: 100%;
+      top: 720px;  
        font-size: 20px;
-        left: 20px;
+        left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
        width: 40%;   
@@ -229,10 +225,9 @@ figcaption{
 }
 .dtr{
     position: absolute;
-      top: 400px;  
-      width: 100%;
+      top: 870px;  
        font-size: 20px;
-       left: 650px;
+       left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
        width: 40%;   
@@ -241,10 +236,9 @@ figcaption{
 }
 .spokesp{
     position: absolute;
-      top: 550px;  
-      width: 100%;
+      top: 1020px;  
        font-size: 20px;
-        left: 20px;
+        left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
        width: 40%;   
@@ -254,10 +248,9 @@ figcaption{
 }
 .orgsec{
     position: absolute;
-      top: 550px;  
-      width: 100%;
+      top: 1170px;  
        font-size: 20px;
-       left: 650px;
+       left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
        width: 40%;   
@@ -266,10 +259,9 @@ figcaption{
 }
 .yl{
     position: absolute;
-      top: 720px;  
-      width: 100%;
+      top: 1320px;  
       font-size: 20px;
-      left: 350px;
+      left: 30%;
       border: 2px solid white;
        border-radius: 8px;  
        width: 40%;   
@@ -281,71 +273,70 @@ figcaption{
       top: 223px;  
       width: 60;
       height: 119px;
-      left: 350px;
+      left: 730px;
 
 }
 .dpal{
       position: absolute;
-      top: 223px;  
+      top: 373px;  
       width: 60;
-      height: 119px;
-      left: 990px;
+      height:119px;
+      left: 730px;
 
 }
 .sgg{
       position: absolute;
-      top: 373px;  
+      top: 523px;   
       width: 60;
       height: 119px;
-      left: 350px;
-
+      left: 730px;
 }
 .dsgg{
       position: absolute;
-      top: 373px;  
+      top: 674px;  
       width: 60;
       height: 119px;
-      left: 990px;
+      left: 730px;
 
 }
 .tre{
       position: absolute;
-      top: 523px;  
+     top: 842px; 
       width: 60;
       height: 119px;
-      left: 350px;
+      left: 730px;
 
 }
 .dtre{
       position: absolute;
-      top: 523px;  
+      top: 992px;  
       width: 60;
       height: 119px;
-      left: 990px;
+      left: 730px;
 
 }
 .spokespe{
       position: absolute;
-      top: 674px;  
+      top: 1142px;  
       width: 60;
       height: 119px;
-      left: 350px;
+      left: 730px;
 
 }
 .orgsecr{
       position: absolute;
-      top: 674px;  
+      top: 1292px;  
       width: 60;
       height: 119px;
-      left: 990px;
+      left: 730px;
 
 }
 .yol{
       position: absolute;
-      top: 842px;  
+      top: 1442px;  
       width: 60;
       height: 120px;
-      left: 640px;
+      left: 730px;
 }
 #join{
     position: absolute;
