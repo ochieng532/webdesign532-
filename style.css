@@ -11,8 +11,9 @@ li{
     border: 2px solid  white;
     
 }
-ul{
+.navlinks{
     list-style-type: none;
+    display: flex;
     background-color: white;
     position: absolute;
     top: 95px;  
@@ -36,8 +37,23 @@ hr{
 height: 80px;
 width: 80px;
 }
+.navbar{
+display: flex;
+justify-content: space-between;
+ }
+ .burger{
+      display: none;
+      cursor: pointer;
+      display: block;
+ }
+.burger div{
+      transition:all 0.3s ease;
+}
+
 body{
     background-color: #5EC1BF;
+    margin:0px;
+    padding: 20px;
 }
 p{
   position: absolute;
@@ -116,6 +132,8 @@ pre{
       left: 260px;
       width: 800px;
       height: 500px;
+      border: 3px solid white;
+      border-radius: 12px;
       }
 figcaption{
        position:absolute;
@@ -615,9 +633,12 @@ figcaption{
        color: white;
        background-color:black;
 }
-
-@media (max-width:480px){
-      #p2{
-      
-      }
+.container{
+      max-width: 100%;
+      box-sizing: border-box;
+      padding: 20px;
 }
+
+
+      
+
