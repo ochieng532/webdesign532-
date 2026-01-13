@@ -6,40 +6,44 @@
            <link rel="stylesheet" href="style.css">
          <meta charset="utf-8">
          <meta name="viewport" content="width=device-width, initial scale=1.0">
+        
+        
 
     </head>
      <body>
- <hr>
- <marquee behavior="scroll" direction="right" scrollamount="15">The Great Minds Party Membership</marquee>
+ <div class="navbar">
+         <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <img src="official logo.jpg" width="45" height="40">
+          <div class="nav-links" id="navLinks">
+            <a href="index.html">HOME</a>
+            <a href="About.html">ABOUT</a>
+            <a href="Location.html">LOCATION</a>
+            <a href="Manifesto.html">MANIFESTO</a>
+            <a href="Membership.html">MEMBERSHIP</a>
+            <a href="Officials.html">OFFICIALS</a>
+            <a href="Events.html">EVENTS</a>
+            <a href="Contact.html">CONTACT</a>
+      </div></div>
 
-        <p>Great Minds Party G.M.P</p>
-        <p id="p2">Inspiring Thought. Leading Change</p>
-        <img src="official logo.jpg" class="logo">
-        <ul>
-            <li><a href="Home page.html">HOME</a></li>
-            <li><a href="About.html">ABOUT</a></li>
-            <li><a href="Location.html">LOCATION</a></li>
-            <li><a href="Manifesto.html">MANIFESTO</a></li>
-            <li><a href="Membership.html">MEMBERSHIP</a></li>
-            <li><a href="Officials.html">OFFICIALS</a></li>
-            <li><a href="Events.html">EVENTS</a></li>
-            <li><a href="Contact.html">CONTACT</a></li>
-        </ul>
-        <div id="join"><b>Join Great Minds Party;</b><br>
+       <section class="member">
+         <div id="join"><b>Join Great Minds Party;</b><br>
 i.Be part of Kenya's progressive movement<br>
 ii.Get updates on campaigns & events<br>
-iii.Contribute to shaping policy<br></div>
+iii.Contribute to shaping policy<br>
+</div>
 
 <div class="testimonials"><b>TESTIMONIALS</b><br></div>
 <div class="sk">1.<b>Samson K., Nairobi:</b> "Joining Great Minds Party was a game-changer!<br> The focus on innovation and youth empowerment is what Kenya needs."</div><br>
 <div class="jo">2.<b>James O., Kisumu:</b> "I love how GMP is pushing for transparency in governance.<br>Proud to be part of the movement!"</div><br>
 <div class="lT">3.<b>Linda T., Kilifi:</b>"The party's emphasis on education reform resonates with me. <br>Let's build a brighter future!"</div><br>
 <div class="dm">4.<b>David M., Youth Member:</b> "GMP's youth wing is fire!<br>Shaping Kenya's tomorrow with fresh ideas."</div>
+       </section>
 
 <a href="Membership form.html">
     <button onclick="fillForm()" id="member"><b>JOIN NOW</b></button></a>
     <script src="script.js"></script>
 
     <div><img src="join us.jpg" id="comeall"></div>
+    <script src="script.js"></script>  
            </body>
     </html>

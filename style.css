@@ -1,46 +1,88 @@
-a{
-    text-decoration: none;
-    color: black;
-   padding: 10px;
-}
-li{
-    float: left;
-    padding: 10px;
-    text-align: center;
-    font-size: 25px;
-    border: 2px solid  white;
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color:#5EC1BF;
+      font-size: 1rem;
+    }
+
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: white;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 16px;
+      /* z-index: 1000px; */
+    }
+
+    .nav-links {
+           display: flex;
+    }
+
+    .nav-links a {
+      color: black;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover {
+      background-color: darkviolet;
+    }
+
+    .hamburger {
+      display: none;
+      font-size: 24px;
+      color: darkviolet;
+      cursor: pointer;
+    }
     
-}
-li:hover{
-    background-color:darkviolet;
-}
-hr{
-    background-color: darkviolet;
-    width: 100%;
-    height: 15px;
-    position: absolute;
-     left: 0px;
-     top: 0px;
-  } 
-.logo{
- position: absolute;
- top: 25px;
- left: 650px;
-height: 80px;
-width: 80px;
-}
-body{
-    background-color: #5EC1BF;
-    margin:0px;
-    padding: 20px;
-}
-p{
-  position: absolute;
-  top: 30px; 
-  left: 25px; 
-  height: 5px;
-  font-size: 25px;
-}
+
+    @media screen and (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: white;
+        z-index: 999;
+
+        
+      }
+      .navbar{
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+
+      }
+       img{
+      /* position: absolute; */
+      top: 0;
+      right: 0;
+            
+         
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .hamburger {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 15px;
+      }
+    }
+
+ @media screen and (max-width: 480px) {
+      body{
+           font-size: 0.9rem;
+      }
+ }
+
 #p2{
   position: absolute;
   top: 30px;  
@@ -52,9 +94,29 @@ p{
 pre{
   width:100%;
 }
+
+.kuhusu{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      min-height: 100vh;
+      margin-top: 45px;
+      padding: 30px;
+}
+.batons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+}
+div p{
+      text-align: center;
+}
 .brief{
-       position:absolute;
-       top:180px;
+       /* position:absolute;
+       top:180px; */
        font-size:35px;
        border: 3px solid black;  
        border-radius: 10px;
@@ -84,9 +146,11 @@ pre{
        top:140px;
        font-size:20px;
          }
+
+       
 .about{
-      position:absolute;
-       top:345px;
+      /* position:absolute;
+       top:345px; */
        font-size:35px;
        border: 3px solid black;  
        height: 150px;
@@ -96,8 +160,8 @@ pre{
        background-color:darkviolet;
       }
 #mission{
-      position:absolute;
-       top:200px;
+      /* position:absolute;
+       top:200px; */
        font-size:35px;
        border: 3px solid black;  
        border-radius: 10px;
@@ -105,24 +169,33 @@ pre{
        color: white;
        background-color:darkviolet;
       }
+      .figure1{
+            display :flex;
+            justify-content: center;
+            align-items:center;
+            flex-direction: column;
+            height: 100vh;
+      }
    .pic{
-      position:absolute;
+      /* position:absolute;
       top: 170px;
       left: 260px;
       width: 800px;
-      height: 500px;
-      border: 3px solid white;
+      height: 500px; */
+      /* border: 3px solid white;
       border-radius: 12px;
-      }
+      */
+      background-color: none;
+      } 
 figcaption{
-       position:absolute;
+       /* position:absolute;
       top: 670px;
       left: 200px;
-      font-size: 35px;
+      font-size: 35px; */
           }
 #click1{ 
-       position: absolute;
-      top: 400px;  
+       /* position: absolute;
+      top: 400px;   */
        font-size: 20px;
        left: 150px;  
        border: 3px solid darkviolet;  
@@ -133,8 +206,8 @@ figcaption{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #click2{ 
-       position: absolute;
-      top: 400px;  
+       /* position: absolute;
+      top: 400px;   */
        font-size: 20px;
        left: 570px;  
        border: 3px solid darkviolet;  
@@ -145,8 +218,8 @@ figcaption{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #click3{ 
-       position: absolute;
-      top: 400px;  
+       /* position: absolute;
+      top: 400px;   */
        font-size: 20px;
        right: 150px;  
        border: 3px solid darkviolet;  
@@ -418,38 +491,55 @@ figcaption{
         }
 .partyoffices{
     position: absolute;
-      top: 180px;  
-       left: 850px;  
+      top: 180px;   
+       left: 650px;  
        width: 350px;
        height: 400px;
        border: 2px solid black;
        border-radius: 8px;
              }
+/* .location-container{
+      
+      padding: 30px;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+}*/
+
+             .location{
+                  display: flex;
+                  flex-direction: column;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 10px;
+                  
+             } 
 .Nairobi {
        border: 2px solid white;
        border-radius: 8px;  
-       width: 48%;   
+       width: 400px;   
        padding: 3px;   
        background-color: darkviolet;   
           }
 .kilifi{
        border: 2px solid white;
        border-radius: 8px;  
-       width: 48%;   
+       width: 400px;   
        padding: 3px;   
        background-color: darkviolet;   
              }
 .Machakos {
        border: 2px solid white;
        border-radius: 8px;  
-       width: 48%;   
+       width: 400px;   
        padding: 3px;   
        background-color: darkviolet;   
              }
 .Kisumu {
        border: 2px solid white;
        border-radius: 8px;  
-       width: 48%;   
+       width: 400px;   
        padding: 3px;   
        background-color: darkviolet;   
              }
@@ -619,5 +709,149 @@ figcaption{
 }
 
 
-      
+
+
+       @media(max-width:768px){
+
+            .kuhusu{
+                  display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      min-height: 100vh;
+      margin-top: 45px;
+      padding: 30px;
+            }
+             .about{
+                       position:static;
+       top:auto;
+       font-size:16px;
+       border: 2px solid black;  
+       border-radius: 8px;
+       padding: 3px;
+       color: white;
+       background-color:darkviolet;
+            }
+            .brief{
+                       position:static;
+       top:auto;
+       font-size:16px;
+       border: 2px solid black;  
+       border-radius: 8px;
+       padding: 3px;
+       color: white;
+       background-color:darkviolet; 
+            }
+               
+             #mission{
+                 position:static;
+       top:auto;
+       font-size:16px;
+       border: 2px solid black;  
+       border-radius: 8px;
+       padding: 3px;
+       color: white;
+       background-color:darkviolet;
+            }
+
+            #click1{ 
+       position: static;
+      top: auto;  
+       font-size: 20px;
+       left: 150px;  
+       border: 3px solid darkviolet;  
+       border-radius: 8px;
+       padding: 3px;
+       color: white;
+       background-color:black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#click2{ 
+       position: static;
+      top: auto;  
+       font-size: 20px;
+       left: 570px;  
+       border: 3px solid darkviolet;  
+       border-radius: 8px;
+       padding: 3px;
+       color: white;
+       background-color:black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#click3{ 
+       position:static;
+      top:10px;  
+       font-size: 20px;
+       right: 150px;  
+       border: 3px solid darkviolet;  
+       border-radius: 8px;
+       padding: 3px;
+       color: white;
+       background-color:black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.partyoffices{
+    position: absolute;
+      top:-420px;   
+       left: 40px;  
+       width: 350px;
+       height: 400px;
+       border: 2px solid black;
+       border-radius: 8px;
+             }
+
+             .location{
+                  display: flex;
+                  flex-direction: column;
+                  flex-wrap: wrap;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 10px;
+                  position: absolute;
+                  top: 500px;
+             }
+ 
+
+  #join {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .testimonials {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .sk, .jo, .lT, .dm {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  #member {
+    width: 100px;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 15px;
+    position: absolute;
+      left:150px;
+    top: 1050px;
+
+
+  }
+
+  #comeall {
+      position: absolute;
+      left:130px;
+    width: 259;
+    height: auto;
+    margin-top: 15px;
+    top: 650px;
+  }
+
+
+            
+         } 
 
