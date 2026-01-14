@@ -3,6 +3,7 @@
       font-family: Arial, sans-serif;
       background-color:#5EC1BF;
       font-size: 1rem;
+      padding-bottom: 125px;
     }
 
     .navbar {
@@ -15,7 +16,6 @@
       justify-content: space-between;
       align-items: center;
       padding: 0 16px;
-      /* z-index: 1000px; */
     }
 
     .nav-links {
@@ -58,7 +58,6 @@
 
       }
        img{
-      /* position: absolute; */
       top: 0;
       right: 0;
             
@@ -115,8 +114,6 @@ div p{
       text-align: center;
 }
 .brief{
-       /* position:absolute;
-       top:180px; */
        font-size:35px;
        border: 3px solid black;  
        border-radius: 10px;
@@ -149,8 +146,6 @@ div p{
 
        
 .about{
-      /* position:absolute;
-       top:345px; */
        font-size:35px;
        border: 3px solid black;  
        height: 150px;
@@ -160,8 +155,6 @@ div p{
        background-color:darkviolet;
       }
 #mission{
-      /* position:absolute;
-       top:200px; */
        font-size:35px;
        border: 3px solid black;  
        border-radius: 10px;
@@ -177,25 +170,9 @@ div p{
             height: 100vh;
       }
    .pic{
-      /* position:absolute;
-      top: 170px;
-      left: 260px;
-      width: 800px;
-      height: 500px; */
-      /* border: 3px solid white;
-      border-radius: 12px;
-      */
       background-color: none;
       } 
-figcaption{
-       /* position:absolute;
-      top: 670px;
-      left: 200px;
-      font-size: 35px; */
-          }
 #click1{ 
-       /* position: absolute;
-      top: 400px;   */
        font-size: 20px;
        left: 150px;  
        border: 3px solid darkviolet;  
@@ -206,8 +183,6 @@ figcaption{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #click2{ 
-       /* position: absolute;
-      top: 400px;   */
        font-size: 20px;
        left: 570px;  
        border: 3px solid darkviolet;  
@@ -218,8 +193,6 @@ figcaption{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #click3{ 
-       /* position: absolute;
-      top: 400px;   */
        font-size: 20px;
        right: 150px;  
        border: 3px solid darkviolet;  
@@ -230,11 +203,7 @@ figcaption{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #officials{
-      /* position: relative; */
-      /* top: 120px;   */
       width: 100%;
-      /* min-height: 100%; */
-      /* background: red; */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -246,8 +215,6 @@ figcaption{
        color: darkviolet;
 }
 .pl{
-    /* position: absolute;
-      top: 100px;   */
        font-size: 20px;
        left: 30%;
        border: 2px solid  white;
@@ -257,8 +224,6 @@ figcaption{
        background-color: darkviolet;  
 }
 .dpl{
-    /* position: absolute;
-      top: 250px;   */
       width: 45%;
        font-size: 20px;
        left: 30%;
@@ -268,8 +233,6 @@ figcaption{
        background-color:darkviolet;  
 }
 .sg{
-    /* position: absolute;
-      top: 400px;   */
        font-size: 20px;
         left: 30%;
        border: 2px solid  white;
@@ -279,8 +242,6 @@ figcaption{
        background-color: darkviolet;  
 }
 .dsg{
-    /* position: absolute;
-      top: 550px;   */
        font-size: 20px;
        left: 30%;
        border: 2px solid  white;
@@ -290,8 +251,6 @@ figcaption{
        background-color: darkviolet;  
 }
 .tr{
-    /* position: absolute;
-      top: 720px;   */
        font-size: 20px;
         left: 30%;
        border: 2px solid  white;
@@ -302,8 +261,6 @@ figcaption{
       
 }
 .dtr{
-    /* position: absolute;
-      top: 870px;   */
        font-size: 20px;
        left: 30%;
        border: 2px solid  white;
@@ -313,8 +270,6 @@ figcaption{
        background-color: darkviolet;  
 }
 .spokesp{
-    /* position: absolute;
-      top: 1020px;   */
        font-size: 20px;
         left: 30%;
        border: 2px solid  white;
@@ -325,8 +280,6 @@ figcaption{
       
 }
 .orgsec{
-    /* position: absolute;
-      top: 1170px;   */
        font-size: 20px;
        left: 30%;
        border: 2px solid  white;
@@ -336,8 +289,6 @@ figcaption{
        background-color:darkviolet;  
 }
 .yl{
-    /* position: absolute;
-      top: 1320px;   */
       font-size: 20px;
       left: 30%;
       border: 2px solid white;
@@ -347,71 +298,54 @@ figcaption{
        background-color: darkviolet;  
 }
 .pal{
-      /* position: absolute;
-      top: 100px;   */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .dpal{
-      /* position: absolute;
-      top: 373px;   */
       width: 60;
       height:119px;
       left: 730px;
 
 }
 .sgg{
-      /* position: absolute;
-      top: 523px;    */
       width: 60;
       height: 119px;
       left: 730px;
 }
 .dsgg{
-      /* position: absolute;
-      top: 674px;   */
+      top: 674px;   
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .tre{
-      /* position: absolute;
-     top: 842px;  */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .dtre{
-      /* position: absolute;
-      top: 992px;   */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .spokespe{
-      /* position: absolute;
-      top: 1142px;   */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .orgsecr{
-      /* position: absolute;
-      top: 1292px;   */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .yol{
-      /* position: absolute;
-      top: 1442px;   */
       width: 60;
       height: 120px;
       left: 730px;
@@ -506,13 +440,6 @@ figcaption{
        border: 2px solid black;
        border-radius: 8px;
              }
-/* .location-container{
-      
-      padding: 30px;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-}*/
 
              .location{
                   display: flex;
@@ -639,37 +566,26 @@ figcaption{
       background-color: darkviolet; 
  } 
 .head{
-      /* position: absolute;
-      top: 190px; */
-      /* left: 550px; */
         width: 100%;
       font-size: 40px;
 
 }
 #headd{
-      /* position: absolute;
-      top: 255px; */
       left: 15%;
       width: 100%;
       font-size: 40px;   
 }
 .maps{
-      /* position: absolute;
-      top: 423px;   */
       left: 850px;
       width: 70px;
       height: 70px;
 }
 .call{
-      /* position: absolute;
-      top: 623px;   */
       left: 850px;
       width: 70px;
       height: 70px;
 }
 .email{
-      /* position: absolute;
-      top: 823px;   */
       left: 850px;
       width: 70px;
       height: 70px;
@@ -729,9 +645,6 @@ figcaption{
       box-sizing: border-box;
       padding: 20px;
 }
-
-
-
 
        @media(max-width:768px){
 
@@ -873,9 +786,6 @@ figcaption{
     top: 650px;
   }
 
-  .common1{
-     
-}
 .common1{
       position: absolute;
       top: 400px;
@@ -899,3 +809,14 @@ figcaption{
             
          } 
 
+  footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+   background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;      
+          }
