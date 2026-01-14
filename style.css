@@ -3,7 +3,7 @@
       font-family: Arial, sans-serif;
       background-color:#5EC1BF;
       font-size: 1rem;
-      padding-bottom: 125px;
+      padding-bottom: 55px;
     }
 
     .navbar {
@@ -814,7 +814,7 @@ div p{
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50px;
+  height: 55px;
    background-color: black;
   color: white;
   text-align: center;
