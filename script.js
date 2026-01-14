@@ -51,3 +51,33 @@
     function toggleMenu() {
       document.getElementById('navLinks').classList.toggle('active');
     }
+// let secttionEl = document.querySelector("#officials")
+// // console.log(secttionEl)
+//     let mebersEl  = [
+//         {
+//             name:"Mr Juma mark",
+//             role:"Youth Leader",
+//             email:"officialyl@gmail.com"
+//         }
+//     ]
+//     mebersEl.forEach(element => {
+//         let contdiv = document.createElement("div")
+//         contdiv.classList.add("contdivv")
+//         let div1 = document.createElement("div")
+//         contdiv.classList.add("divv1")
+//         let div2 = document.createElement("div")
+//         contdiv.classList.add("divv2")
+//         let div3 = document.createElement("div")
+//         contdiv.classList.add("divv3")
+//         let div4 = document.createElement("div")
+//         contdiv.classList.add("divv4")
+
+
+
+//         contdiv.append(div1,div2,div3,div4)
+
+
+//         secttionEl.append(contdiv)
+//         console.log(div1)
+
+//     });

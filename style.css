@@ -230,28 +230,36 @@ figcaption{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #officials{
-      position: absolute;
-      top: 120px;  
+      /* position: relative; */
+      /* top: 120px;   */
       width: 100%;
+      /* min-height: 100%; */
+      /* background: red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 45px;
       }
 .intro{
        color: darkviolet;
-      }
+}
 .pl{
-    position: absolute;
-      top: 100px;  
+    /* position: absolute;
+      top: 100px;   */
        font-size: 20px;
        left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
-       width: 40%;   
+       width: 45%;   
        padding: 3px;   
        background-color: darkviolet;  
 }
 .dpl{
-    position: absolute;
-      top: 250px;  
-      width: 40%;
+    /* position: absolute;
+      top: 250px;   */
+      width: 45%;
        font-size: 20px;
        left: 30%;
        border: 2px solid  white;
@@ -260,150 +268,150 @@ figcaption{
        background-color:darkviolet;  
 }
 .sg{
-    position: absolute;
-      top: 400px;  
+    /* position: absolute;
+      top: 400px;   */
        font-size: 20px;
         left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
-       width: 40%;   
+       width: 45%;   
        padding: 3px;   
        background-color: darkviolet;  
 }
 .dsg{
-    position: absolute;
-      top: 550px;  
+    /* position: absolute;
+      top: 550px;   */
        font-size: 20px;
        left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
-       width: 40%;   
+       width: 45%;   
        padding: 3px;   
        background-color: darkviolet;  
 }
 .tr{
-    position: absolute;
-      top: 720px;  
+    /* position: absolute;
+      top: 720px;   */
        font-size: 20px;
         left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
-       width: 40%;   
+       width: 45%;   
        padding: 3px;   
        background-color: darkviolet;    
       
 }
 .dtr{
-    position: absolute;
-      top: 870px;  
+    /* position: absolute;
+      top: 870px;   */
        font-size: 20px;
        left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
-       width: 40%;   
+       width: 45%;   
        padding: 3px;   
        background-color: darkviolet;  
 }
 .spokesp{
-    position: absolute;
-      top: 1020px;  
+    /* position: absolute;
+      top: 1020px;   */
        font-size: 20px;
         left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
-       width: 40%;   
+       width: 45%;   
        padding: 3px;   
        background-color:darkviolet;  
       
 }
 .orgsec{
-    position: absolute;
-      top: 1170px;  
+    /* position: absolute;
+      top: 1170px;   */
        font-size: 20px;
        left: 30%;
        border: 2px solid  white;
        border-radius: 8px;  
-       width: 40%;   
+       width: 45%;   
        padding: 3px;   
        background-color:darkviolet;  
 }
 .yl{
-    position: absolute;
-      top: 1320px;  
+    /* position: absolute;
+      top: 1320px;   */
       font-size: 20px;
       left: 30%;
       border: 2px solid white;
        border-radius: 8px;  
-       width: 40%;   
+       width: 45%;   
        padding: 3px;   
        background-color: darkviolet;  
 }
 .pal{
-      position: absolute;
-      top: 223px;  
+      /* position: absolute;
+      top: 100px;   */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .dpal{
-      position: absolute;
-      top: 373px;  
+      /* position: absolute;
+      top: 373px;   */
       width: 60;
       height:119px;
       left: 730px;
 
 }
 .sgg{
-      position: absolute;
-      top: 523px;   
+      /* position: absolute;
+      top: 523px;    */
       width: 60;
       height: 119px;
       left: 730px;
 }
 .dsgg{
-      position: absolute;
-      top: 674px;  
+      /* position: absolute;
+      top: 674px;   */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .tre{
-      position: absolute;
-     top: 842px; 
+      /* position: absolute;
+     top: 842px;  */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .dtre{
-      position: absolute;
-      top: 992px;  
+      /* position: absolute;
+      top: 992px;   */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .spokespe{
-      position: absolute;
-      top: 1142px;  
+      /* position: absolute;
+      top: 1142px;   */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .orgsecr{
-      position: absolute;
-      top: 1292px;  
+      /* position: absolute;
+      top: 1292px;   */
       width: 60;
       height: 119px;
       left: 730px;
 
 }
 .yol{
-      position: absolute;
-      top: 1442px;  
+      /* position: absolute;
+      top: 1442px;   */
       width: 60;
       height: 120px;
       left: 730px;
@@ -624,44 +632,44 @@ figcaption{
        color: white;
        background-color:darkviolet;
 }
-#color{
+ #color{
       position: relative;
       top: 136px;
       height: 200px;
-      background-color: darkviolet;
-}
+      background-color: darkviolet; 
+ } 
 .head{
-      position: absolute;
-      top: 190px;
-      left: 550px;
+      /* position: absolute;
+      top: 190px; */
+      /* left: 550px; */
         width: 100%;
       font-size: 40px;
 
 }
 #headd{
-      position: absolute;
-      top: 255px;
+      /* position: absolute;
+      top: 255px; */
       left: 15%;
       width: 100%;
       font-size: 40px;   
 }
 .maps{
-      position: absolute;
-      top: 423px;  
+      /* position: absolute;
+      top: 423px;   */
       left: 850px;
       width: 70px;
       height: 70px;
 }
 .call{
-      position: absolute;
-      top: 623px;  
+      /* position: absolute;
+      top: 623px;   */
       left: 850px;
       width: 70px;
       height: 70px;
 }
 .email{
-      position: absolute;
-      top: 823px;  
+      /* position: absolute;
+      top: 823px;   */
       left: 850px;
       width: 70px;
       height: 70px;
@@ -670,27 +678,41 @@ figcaption{
       position: absolute;
       top: 423px;  
       left: 90px;
-      width: 35%;
+      width: 400px;
       text-align: center;
        font-size: 22px;
        background-color: darkviolet;
 }
+
+.common2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+.common{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3px;
+      background-color: darkviolet;
+}
 #add{
-      position: absolute;
-      top: 440px;  
-      left: 930px;
+       position: absolute;
+      top: 530px;  
+      left: 630px;
       font-size: 22px;
 }
 #mail{
       position: absolute;
-      top: 840px;  
-      left: 930px;
+      top: 630px;   
+      left: 630px;
       font-size: 22px;
 }
 #phone{
-      position: absolute;
-      top: 640px;  
-      left: 930px;
+       position: absolute;
+      top: 740px;   
+      left: 630px;
       font-size: 22px;
 }
 .opinion{
@@ -851,7 +873,29 @@ figcaption{
     top: 650px;
   }
 
-
+  .common1{
+     
+}
+.common1{
+      position: absolute;
+      top: 400px;
+      left: -550px;
+}
+#color{
+      text-align: center;
+      padding: 10px;
+      margin: 10px;
+}
+.head{
+      font-size: 27px;
+}
+#headd{
+      font-size: 26px;
+}
+.view{
+       position: absolute;
+      left: 47px;
+}
             
          } 
 
